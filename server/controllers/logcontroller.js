@@ -28,7 +28,7 @@ router.post("/create", (req, res) => {
 
 //--------> Get All
 
-router.get("/logs", (req, res) => {
+router.get("/", (req, res) => {
   Log.findAll()
     .then((log) =>
       res.status(200).json({
@@ -43,7 +43,7 @@ router.get("/logs", (req, res) => {
 });
 
 //--------> Get All for signed in user
-router.get("/"),
+router.get("/user"),
   validateSession,
   (req, res) => {
     let userid = req.user.id;

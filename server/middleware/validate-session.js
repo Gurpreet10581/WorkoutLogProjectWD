@@ -10,20 +10,20 @@ const validateSession = (req, res, next) => {
         {
           where: {
             id: decoded.id,
-          },
+          }
         },
         console.log(decoded)
       )
         .then((user) => {
-          if (!user) throw err;
+          if (!user) throw err
           req.user = user;
 
-          return next();
+          next()
         })
         .catch((err) => next(err));
     } else {
       req.errors = err;
-      return res.status(500).send("Not Authorized");
+      return res.status(500).send("Not Authorized")
     }
   });
 };
