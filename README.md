@@ -1,6 +1,6 @@
 # WorkoutLogProjectWD
 
-## Below images showcases image endpoints and routes.
+## Below Images are to showcase Endpoints and Routes.
 
 #### 1. /user/create - 	Allows a new user to be created with a username and password.
 <img src= "server/asset/userCreate.PNG" width = 80%>
@@ -27,5 +27,5 @@
 <img src= "server/asset/UsernameDbTable.PNG" width = 80%>
 
 #### 9. Log Database Table
-<img src= "server/asset/userLoging.PNG" width = 80%>
+<img src= "server/asset/LogDBTable.PNG" width = 80%>
 
