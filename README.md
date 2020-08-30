@@ -24,7 +24,7 @@
 <img src= "server/asset/logDeleteByID.PNG" width = 80%>
 
 #### 8. User Database Table
-<img src= "server/asset/UsernameDBTable.PNG" width = 80%>
+<img src= "server/asset/UsernameDbTable.PNG" width = 80%>
 
 #### 9. Log Database Table
 <img src= "server/asset/userLoging.PNG" width = 80%>
